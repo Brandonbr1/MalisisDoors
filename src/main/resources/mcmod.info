@@ -1,20 +1,46 @@
 {
-	"modListVersion": 2,
-	"modList": [{
+    "modListVersion": 2,
+    "modList": [
+        {
 		"modid": "${modId}",
 		"name": "${modName}",
 		"description": "Better doors!",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
 		"url": "https://github.com/Ordinastie/MalisisDoors",
-		"updateUrl": "",
-		"authorList": ["Ordinastie"],
-		"credits": "",
-		"logoFile": "malisisdoors.png",
-		"screenshots": [],
-		"parent": "",
-		"requiredMods": [],
-		"dependencies": [],
-		"dependants": []
-	}]
+            "updateUrl": "",
+            "authorList": [
+                "Ordinastie"
+            ],
+            "credits": "",
+            "logoFile": "malisisdoors.png",
+            "screenshots": [],
+            "parent": "",
+            "requiredMods": [],
+            "dependencies": [
+				"malisiscore"
+			],
+            "dependants": []
+        },
+        {
+            "modid": "malisiscore",
+            "name": "MalisisCore",
+            "description": "MalisisCore is a framework dedicated to simplify many processes required during a mod development.",
+            "version": "1.7.10-0.14.3",
+            "credits": "",
+            "mcversion": "1.7.10",
+            "url": "http://github.com/Ordinastie/MalisisCore",
+            "updateUrl": "",
+            "authorList": [
+                "Ordinastie",
+                "PaleoCrafter"
+            ],
+            "logoFile": "malisiscore.png",
+            "parent": "",
+            "screenshots": [],
+            "dependencies": [
+                "MinecraftForge"
+            ]
+        }
+    ]
 }
